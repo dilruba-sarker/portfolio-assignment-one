@@ -1,0 +1,97 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 200px;
+  
+    
+    
+}
+/* .header-sec{  background-image: url(./images/header_bg.png); } */
+
+
+/* shared style */
+body{
+    font-family: "Open Sans", sans-serif;
+
+ 
+}
+
+
+#span{
+    color: rgb(255, 183, 2);
+}
+
+nav>ul{
+    display: flex;
+    align-items: center;
+ 
+}
+
+nav li{
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+.btn{
+    background-color: darkorange;
+    border: 0;
+    padding: .5em 1em;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+/* header stryle */
+
+.header-sec{
+    background-color: hsl(0, 73%, 91%);
+    
+}
+
+/* banner design */
+.banner{ padding: 30px 30px 0px 150px;
+     display: flex;
+     align-items: center;
+     background-image: url(./images/header_bg.png);
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     background-size: 700px;
+}
+
+.banner-content{
+    max-width: 500px;
+   
+}
+.banner .profile-pic{
+    width: 500px;
+
+   
+}
+
+/* about */
+.main{
+    max-width: 900px;
+  margin: 0 auto;
+}
+.about{
+    background-color: rgb(207, 253, 237);
+    padding: 130px;
+    margin: 130px 0;
+}
+.about-greeting{
+    text-align: center;
+}
+
+.about-para{
+    text-align: center;
+}
+.address{
+    display:flex ;
+    justify-content: space-around;
+}
+
+.about-inf{
+    text-align: center;
+}
+
